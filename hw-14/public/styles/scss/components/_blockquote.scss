@@ -1,0 +1,13 @@
+.blog-blockquote {
+  color: #c69c6d;
+  padding: 0.5rem 1rem;
+  margin:0 0 1.5rem 1.88rem;
+  border-left: 0.25rem solid #eceeef;
+  font: 300 1.5rem/2.25rem $Oxygen;
+
+  .blockquote-footer {
+    font: 700 .88rem/1.88rem $Lato;
+    font-style: italic;
+    color: #c69c6d;
+  }
+}

@@ -1,0 +1,35 @@
+.portfolio-content {
+  padding: 3.13rem 0 3.13rem;
+
+  .portfolio-text {
+    margin-bottom: 2.88rem;
+  }
+
+  .row {
+    .cards {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.portfolio-grid-top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-info {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+    color: $top-header-color;
+    font: 300 .75rem/2.2rem $Oxygen;
+
+    .fa {
+      margin-left: .5rem;
+      color: $orange;
+      font-size: .75rem;
+    }
+  }
+}

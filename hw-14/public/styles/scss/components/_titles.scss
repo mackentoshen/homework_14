@@ -1,0 +1,48 @@
+.section-headers-white {
+  color: $white;
+  font: 300 2.25rem/1.25rem $Oxygen;
+  margin-bottom: 5.4rem;
+  text-align: center;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: $title-line;
+    bottom: -40px;
+    left: calc(50% - 25px);
+  }
+}
+
+.section-headers-black {
+  @extend .section-headers-white;
+  color: $grey-text;
+}
+
+.cards-titles {
+  color: $black;
+  font: 300 1.5rem/1.88rem $Oxygen;
+}
+
+.jumbotron-title {
+  font: 300 3.75rem/4.5rem $Oxygen;
+  color: $white;
+
+  &:last-child {
+    margin-bottom: 6.25rem;
+  }
+}
+
+.block-grid-title {
+  color: $white;
+  font: 300 2.25rem/2.25rem $Oxygen;
+  margin-bottom: 1.25rem;
+}
+
+.blog-text-title {
+  color: #3b4954;
+  font: 700 1.13rem/1.5rem $Oxygen;
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+////////////////// HEADER ////////////////////////
+
+
+///////////////// SECTIONS //////////////////////
+
+
+  .user-list {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .blog-text-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    //.blog-text-img {
+    //  .img-fluid {
+    //    margin: 0;
+    //  }
+    //}
+  }
+
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+
+
+///////////////// FOOTER ////////////////////////
+
+}

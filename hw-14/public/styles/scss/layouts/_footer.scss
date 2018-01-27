@@ -1,0 +1,126 @@
+.main-footer {
+  background-color: $greyblue;
+  padding: 0 0 3.13rem;
+  color: $white;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  @each $col in $footer-menu-palette {
+    $i:$i+1;
+    .footer-top-content:nth-child(#{$i}) {
+      border-top: 10px solid $col;
+    }
+  }
+
+  .footer-top-content {
+    padding-top: 2rem;
+
+    .footer-titles {
+      color: $white;
+      font: 300 1.375rem/2.19rem $Oxygen;
+      margin-bottom: 3.13rem;
+    }
+  }
+}
+
+.contact-area {
+  font: 300 .75rem/1.5rem $Oxygen;
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.tweets-area {
+  font: 300 .75rem/1.5rem $Oxygen;
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.social-area {
+  font: 400 .75rem/4.4rem $Oxygen;
+  min-width: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+
+    .footer-social-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        color: $white;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.popular-post-area {
+  font: 400 .75rem/1.5rem $Oxygen;
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/////////////////////////////////////////////////////////////
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .bottom-content {
+    p {
+      font: 300 .75rem/1.5rem $Oxygen;
+    }
+  }
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: $azure;
+}
+
+.youtube {
+  background-color: #c4302b;
+}
+
+.instagram {
+  background-color: #825c48;
+}
+
+.pinterest {
+  background-color: #a30834;
+}

@@ -1,0 +1,61 @@
+.grid-icon {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #3b4954;
+  margin-right: .5rem;
+}
+
+.portfolio-social-list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .portfolio-social-icon {
+    margin: .2rem;
+
+    a {
+      text-decoration: none;
+
+      i {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.fa-facebook-official {
+  color: blue;
+}
+
+.fa-twitter-square {
+  color: $azure;
+}
+
+.fa-envelope-square  {
+  color: $grey;
+}
+
+.fa-pinterest-square {
+  color: red;
+}
+
+.fa-plus-square {
+  color: $orange;
+}
+
+.fa-tags {
+  color: $turquoise;
+  margin-right: .7rem;
+}
+
+.fa-quote-left {
+  color: $grey;
+}
+
+.icon-counter {
+  border: 1px solid $grey;
+  font: 300 .7rem $Oxygen;
+  color: $grey-text;
+}

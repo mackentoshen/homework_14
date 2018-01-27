@@ -1,0 +1,21 @@
+.header-links {
+
+  a {
+    color: $top-header-color;
+    text-decoration: none;
+    font: 300 0.69rem/2.19rem $Oxygen;
+    margin-right: 2.18rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    i {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.link-color {
+  color: $top-header-color;
+}

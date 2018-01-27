@@ -1,0 +1,13 @@
+.header-search-form {
+  max-width: 13.13rem;
+  border: 1px solid rgba(133, 147, 159, 0.5);
+  outline: none;
+  padding: 0.2rem 0.5rem;
+
+  .page-search {
+    color: $top-header-color;
+    font: 400 0.75rem $Lato;
+    background-color: transparent;
+    border: none;
+  }
+}

@@ -1,0 +1,56 @@
+a {
+  text-decoration: none;
+}
+
+.portfolio-single {
+  padding: 3.125rem 0;
+}
+
+.work-description {
+  p {
+    color: $grey-text;
+    font: 700 .75rem/1.5rem $Oxygen;
+    margin-bottom: .6rem;
+  }
+
+  .work-container {
+    .work-list {
+      //margin-bottom: .3rem;
+
+      i {
+        color: #ffae00;
+        margin-right: .7rem;
+      }
+
+      span {
+        font: 300 .75rem/1.88rem $Oxygen;
+        color: $grey-text;
+      }
+    }
+  }
+}
+
+.portfolio-likes {
+  margin-bottom: 1.3rem;
+
+  i {
+    margin-right: .8rem;
+    color: $grey;
+  }
+
+  span {
+    color: $grey-post;
+    font: 300 0.88rem/1.25rem $Oxygen;
+  }
+}
+
+.portfolio-category {
+  text-decoration: none;
+  color: #ffae00;
+  font: 300 0.88rem/1.25rem $Oxygen;
+
+  &:hover {
+    text-decoration: none;
+    color: $grey;
+  }
+}

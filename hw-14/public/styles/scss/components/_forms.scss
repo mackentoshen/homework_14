@@ -1,0 +1,26 @@
+.comments-form {
+  margin-bottom: 5rem;
+}
+
+.comment-input-field {
+  margin-bottom: 1.5rem;
+
+  label {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      border: none;
+      border-top: 1px solid $turquoise;
+    }
+  }
+}
+
+.comment-textarea-field {
+  textarea {
+    border: none;
+    border-top: 1px solid $turquoise;
+    min-height: 6.25rem;
+    margin-bottom: 2rem;
+  }
+}

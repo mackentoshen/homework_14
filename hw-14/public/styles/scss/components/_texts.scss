@@ -1,0 +1,58 @@
+.section-titles-text {
+  color: $grey-text;
+  font: 300 1.125rem/1.875rem $Oxygen;
+  margin:0 auto 2.875rem;
+  max-width: 46rem;
+  text-align: center;
+}
+
+.section-titles-text-white {
+  @extend .section-titles-text;
+  color: $white;
+}
+
+.wp-purchase-text {
+  color: $white;
+  font: 300 1.5rem/2.25rem $Oxygen;
+}
+
+.cards-texts {
+  color: $grey-text;
+  font: 300 0.88rem/1.5rem $Oxygen;
+}
+
+.grid-text {
+  font: 300 .75rem/1.25rem $Oxygen;
+}
+
+.portfolio-text {
+  color: $grey-text;
+  font: 300 0.88rem/1.5rem $Oxygen;
+  text-align: justify;
+}
+
+.portfolio-description-text {
+  color: $grey-text;
+  font: 300 0.88rem/1.5rem $Oxygen;
+  margin-bottom: 1.5rem;
+}
+
+.blog-text {
+  @extend .portfolio-description-text
+}
+
+.cyan-text {
+  color: $turquoise;
+}
+
+.white-text {
+  color: $white;
+}
+
+.grey-text {
+  color: $grey;
+}
+
+.dark-grey {
+  color: $grey-text;
+}

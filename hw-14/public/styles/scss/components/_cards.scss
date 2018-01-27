@@ -1,0 +1,250 @@
+.cards {
+  border: none;
+  position: relative;
+
+
+  &:hover {
+    .work-cards-img {
+      filter: brightness(50%);
+    }
+
+    .wrap-icon-card {
+      z-index: 1;
+    }
+
+    .cards-content {
+      display: none;
+    }
+  }
+
+  &-content {
+    max-width: calc(100% - 30px);
+    position: absolute;
+    background-color: #666666;
+    bottom: 0;
+    right: 0;
+    left: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+
+    .author {
+      &-name {
+        color: $white;
+        font: 300 0.88rem/1.5rem $Oxygen;
+      }
+
+      &-position {
+        color: $turquoise;
+        font: 300 0.68rem/1.25rem $Oxygen;
+      }
+    }
+
+    &-likes {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      i {
+        color: $white;
+        font-size: 0.68rem;
+        margin-bottom: 0.69rem;
+      }
+
+      span {
+        color: $turquoise;
+        font: 300 0.68rem/1.25rem $Oxygen;
+      }
+    }
+  }
+}
+
+.wrap-icon-card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+  .icon-card {
+    margin-bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: $turquoise;
+
+    .icon-card-like {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        width: 100%;
+        margin-top: .6rem;
+        color: $white;
+        font-size: 1.3rem;
+      }
+    }
+
+  }
+}
+
+
+.posts-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .posts-area-info {
+    padding-bottom: 1.75rem;
+    max-width: 290px;
+
+
+    .post-img {
+      width: 100%;
+      display: block;
+      margin-bottom: 1.88rem;
+    }
+
+    .cards-titles {
+      color: $turquoise;
+      margin-bottom: 1.75rem;
+    }
+
+    p {
+      color: $grey-post;
+      font: 300 0.88rem/1.5rem $Oxygen;
+      margin-bottom: 1.25rem;
+    }
+
+    .posts-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid $grey;
+
+      .counter {
+        i {
+          color: $turquoise;
+          margin-right: 0.5rem;
+        }
+
+        span {
+          font: 300 0.88rem/2.18rem $Oxygen;
+        }
+      }
+    }
+  }
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-photo {
+  width: 210px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    display: block;
+    opacity: .5;
+  }
+
+  .photo-description {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    bottom: 0;
+    height: 120px;
+    background: #fff;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+
+    p {
+      margin: 0 1.5rem;
+      color: $grey-text;
+      font: 400 .75rem/1.5rem $Oxygen;
+    }
+  }
+
+  .photo-name {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #eeeeee;
+    width: 135px;
+    height: 60px;
+    background: #fff;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: 0 auto 1.87rem;
+
+    h5 {
+      color: $turquoise;
+      font: 400 .875rem/1.125rem $Oxygen;
+    }
+
+    p {
+      color: $grey;
+      font: 400 .75rem/1.125rem $Oxygen;
+    }
+  }
+}
+
+.profile-container {
+  width: 210px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  text-align: center;
+
+  .transp-btn {
+    margin: 2rem auto;
+  }
+}
+
+.team-content:hover {
+  .photo-name {
+    display: none;
+  }
+
+  img {
+    opacity: 1;
+  }
+
+  .photo-description {
+    display: none;
+  }
+
+  .profile-container {
+    button {
+      background: #02baab;
+      color: #fff;
+    }
+  }
+}
+
+.transp-btn:focus, .transp-btn:hover {
+  text-decoration: none;
+}
+
+.blog-text-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+
+  .blog-text-img {
+    .img-fluid {
+      margin: 0;
+    }
+  }
+}

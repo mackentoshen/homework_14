@@ -1,0 +1,22 @@
+.container {
+  max-width: 935px;
+  //margin: 0 auto;/
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 130px;
+  height: 48px;
+}

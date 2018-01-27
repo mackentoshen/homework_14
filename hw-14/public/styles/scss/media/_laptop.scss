@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /////////////////////////// HEADER /////////////////////
+  .header-top {
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+
+  .header-bottom {
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+
+////////////////////////////SECTIONS////////////////////////////
+
+  .grid-content-top {
+    padding: 5rem 0 3.13rem;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  .user-list {
+    flex-wrap: wrap;
+    //margin-bottom: 1rem;
+  }
+
+
+  .cards {
+    margin-bottom: 20px;
+    //text-align: center;
+
+    &-content {
+      max-width: 290px;
+      text-align: center;
+    }
+  }
+
+  .features-info {
+    margin-left: 30px;
+  }
+
+  .wp-purchase-section {
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  .expirience-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .expirience-list ~ .expirience-list {
+    margin-top: 100px;
+    .circe-big:before {
+      width: 4.4rem;
+      height: .7rem;
+      content: '';
+      transform: rotate(90deg);
+      position: absolute;
+      top: -60px;
+      left: 66px;
+      background: url("../../images/dots.png") center center no-repeat;
+    }
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .posts-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .blog-text-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+
+    .blog-text-img {
+      .img-fluid {
+        margin: .5rem;
+      }
+    }
+  }
+
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+///////////////////////////FOOTER//////////////////////////////
+
+
+}

@@ -1,0 +1,33 @@
+.quote-section {
+  background-color: $grey;
+  padding: 11.56rem 0 6.25rem;
+
+  blockquote {
+    max-width: 38.4rem;
+    margin: 0 auto;
+    text-align: justify;
+    color: $white;
+    font: 300 1.5rem/1.88rem $Oxygen;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 2.75rem;
+      height: 2.44rem;
+      display: block;
+      top: -5.5rem;
+      left: 50%;
+      position: absolute;
+      background: url("../../images/quotes.png") center center no-repeat;
+      background-size: contain;
+    }
+
+    p {
+      color: $turquoise;
+      font: 700 0.88rem/1.13rem $Lato;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+}

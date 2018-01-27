@@ -1,0 +1,69 @@
+@media only screen and (max-width: 480px) {
+
+////////////////// HEADER /////////////////
+
+///////////////// SECTIONS ////////////////
+
+  .block-grid-title {
+    text-align: center;
+  }
+
+  .grid-content-top .row {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .user-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .blog-blockquote {
+    font: 300 1rem/1.5rem "Oxygen", sans-serif;
+  }
+
+  .popular-post-area {
+    flex-direction: column;
+  }
+
+  .blog-tags .tags-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .comments-form .col-sm-12 {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+//////////////// FOOTER ///////////////////
+
+
+
+
+
+  //.expirience-list {
+  //  max-width: 300px;
+  //}
+  //
+  //.expirience-list ~ .expirience-list {
+  //  margin-top: 100px;
+  //
+  //  .circe-big:before {
+  //    width: 4.4rem;
+  //    height: .7rem;
+  //    content: '';
+  //    transform: rotate(90deg);
+  //    position: absolute;
+  //    top: -60px;
+  //    left: 66px;
+  //    background: url("../../images/dots.png") center center no-repeat;
+  //  }
+  //}
+
+
+
+}

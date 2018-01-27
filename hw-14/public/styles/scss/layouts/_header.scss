@@ -1,0 +1,43 @@
+.header-top {
+  background-color: $black;
+  padding: 0.56rem 0 0.75rem;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.header-bottom {
+  background-color: $dark-grey;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.header-nav {
+  display: flex;
+  @each $col in $nav-palette {
+    $i:$i+1;
+    li:nth-child(#{$i}) {
+      border-top: 10px solid $col;
+    }
+  }
+
+  li {
+    width: 6.25rem;
+    text-align: center;
+    min-height: 72px;
+
+    a {
+      color: $white;
+      font: 300 0.75rem/3.8rem $Oxygen;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}

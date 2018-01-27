@@ -1,0 +1,70 @@
+.expirience-container {
+  display: flex;
+  width: 100%;
+
+  .expirience-list {
+    display: block;
+    text-align: center;
+    text-align: -webkit-center;
+    position: relative;
+    width: 22.5%;
+
+    .circe-big {
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      background: transparent;
+      border: 4px solid $white;
+      margin-bottom: 1.88rem;
+      position: relative;
+
+      .circle-small {
+        width: 100px;
+        height: 100px;
+        background: $black;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        i {
+          color: white;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 3.5rem;
+        }
+      }
+    }
+
+    .expirience-content {
+
+      .numbers {
+        color: white;
+        font: 300 3rem/1.5rem $Oxygen;
+        text-align: center;
+      }
+
+      .meanings {
+        @extend .numbers;
+        font: 300 1.13rem/1.5rem $Oxygen;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .expirience-list ~ .expirience-list {
+
+    .circe-big:before {
+      width: 4.4rem;
+      height: .7rem;
+      content: '';
+      position: absolute;
+      top: 100px;
+      left: -92px;
+      background: url("../../images/dots.png") center center no-repeat;
+    }
+  }
+}

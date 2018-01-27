@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+
+  .page-item {
+
+    .page-link {
+      border: none;
+      color: $turquoise;
+      font: 400 .88rem/1.5rem $Oxygen;
+    }
+  }
+
+  .active {
+
+    .page-link {
+      border: none;
+      background-color: $grey;
+      z-index: 0;
+    }
+  }
+}

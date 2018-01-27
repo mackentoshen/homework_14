@@ -1,0 +1,50 @@
+.comments-article {
+  border: 5px solid $white;
+  background: #fff;
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+
+  &:hover {
+    border: 5px solid $grey;
+  }
+
+  .comments-line {
+    display: flex;
+    justify-content: space-between;
+
+    .cyan-text {
+      text-decoration: none;
+      font: 300 .88rem/1.5rem $Oxygen;
+    }
+
+    .comments-reply {
+      text-decoration: none;
+      color: $turquoise;
+      font: 300 .88rem/1.5rem $Oxygen;
+      z-index: 0;
+
+      &:hover {
+        z-index: 2;
+      }
+    }
+
+
+  }
+
+  .grey-text {
+    color: #85939f;
+    font: 300 .75rem/1.5rem $Oxygen;
+    border-bottom: 1px solid $grey;
+    margin-bottom: .8rem;
+  }
+
+  .comment-text {
+    font: 300 .88rem/1.5rem $Oxygen;
+  }
+}
+
+.user-answer {
+  @extend .comments-article;
+  margin-left: 1.5rem;
+}

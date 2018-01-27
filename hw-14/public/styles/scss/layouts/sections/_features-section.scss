@@ -1,0 +1,53 @@
+.features-section {
+  background-color: $white;
+  padding: 6.25rem 0 1.25rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  .features-info {
+    margin-bottom: 4.38rem;
+    width: 39%;
+    padding-left: 4.3rem;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 2.5rem;
+      height: 2.38rem;
+      display: block;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-size: contain;
+    }
+
+    &:nth-child(1):before {
+      background: url('../../images/star.png') center center no-repeat;
+    }
+
+    &:nth-child(2):before {
+      background: url('../../images/cup.png') center center no-repeat;
+    }
+
+    &:nth-child(3):before {
+      background: url('../../images/pen.png') center center no-repeat;
+    }
+
+    &:nth-child(4):before {
+      background: url('../../images/cloud.png') center center no-repeat;
+    }
+
+    .cards-titles {
+      margin-bottom: 0.75rem;
+    }
+
+
+  }
+
+
+}

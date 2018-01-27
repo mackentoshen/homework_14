@@ -1,0 +1,1878 @@
+/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/base/_base.scss */
+.container {
+  max-width: 935px;
+}
+
+/* line 6, ../scss/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 10, ../scss/base/_base.scss */
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* line 15, ../scss/base/_base.scss */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 19, ../scss/base/_base.scss */
+.logo {
+  width: 130px;
+  height: 48px;
+}
+
+/* line 1, ../scss/components/_btns.scss */
+.search-btn {
+  border: none;
+  background-color: transparent;
+  color: #85939f;
+}
+
+/* line 7, ../scss/components/_btns.scss */
+.full-btn {
+  width: 8.5rem;
+  height: 2.5rem;
+  margin: 0.9rem;
+  background-color: #02baab;
+  color: #fff;
+  font: 700 0.75rem/2.18rem "Oxygen", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  border: none;
+}
+
+/* line 19, ../scss/components/_btns.scss */
+.transp-btn, .transp-btn-white, .transp-btn-footer, .comments-button {
+  width: 8.5rem;
+  height: 2.5rem;
+  margin: 0.9rem;
+  background-color: transparent;
+  color: #02baab;
+  font: 700 0.75rem/2.18rem "Oxygen", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  border: 2px solid #02baab;
+}
+/* line 30, ../scss/components/_btns.scss */
+.transp-btn-white {
+  width: 10.6rem;
+  color: #fff;
+  border: 2px solid #fff;
+}
+/* line 37, ../scss/components/_btns.scss */
+.transp-btn-footer {
+  width: 10rem;
+  color: #fff;
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+  text-transform: none;
+}
+
+/* line 46, ../scss/components/_btns.scss */
+.blog-btn {
+  background: transparent;
+  border: none;
+  color: #02baab;
+  font: 300 0.875rem/2.18rem "Oxygen", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 55, ../scss/components/_btns.scss */
+.icon-card-like {
+  background: none;
+  border: none;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+/* line 63, ../scss/components/_btns.scss */
+.show-more-btn {
+  background-color: transparent;
+  border: none;
+  color: #02baab;
+  font: 400 0.88rem/1.5rem "Oxygen", sans-serif;
+  display: block;
+  margin: 1rem auto;
+  position: relative;
+}
+/* line 72, ../scss/components/_btns.scss */
+.show-more-btn:after {
+  display: inline-block;
+  position: absolute;
+  content: "\f0d7";
+  font-family: FontAwesome, sans-serif;
+  width: 11px;
+  height: 6px;
+  color: #02baab;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+/* line 87, ../scss/components/_btns.scss */
+.work-descrition-button {
+  width: 100px;
+  heigth: 36px;
+  border: 3px solid #ffae00;
+  background: transparent;
+  color: #ffae00;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem 1.2em;
+  font: 700 0.75rem/1rem "Oxygen", sans-serif;
+}
+
+/* line 101, ../scss/components/_btns.scss */
+.slide-portfolio-btn {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #ffae00;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 -2px 50px;
+}
+/* line 111, ../scss/components/_btns.scss */
+.slide-portfolio-btn:hover {
+  border: 3px solid #ffae00;
+}
+
+/* line 116, ../scss/components/_btns.scss */
+.comments-button {
+  background-color: #fff;
+  display: block;
+  float: right;
+  margin: 0;
+}
+
+/* line 1, ../scss/components/_inputs.scss */
+.header-search-form {
+  max-width: 13.13rem;
+  border: 1px solid rgba(133, 147, 159, 0.5);
+  outline: none;
+  padding: 0.2rem 0.5rem;
+}
+/* line 7, ../scss/components/_inputs.scss */
+.header-search-form .page-search {
+  color: #85939f;
+  font: 400 0.75rem "Lato", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+/* line 3, ../scss/components/_links.scss */
+.header-links a {
+  color: #85939f;
+  text-decoration: none;
+  font: 300 0.69rem/2.19rem "Oxygen", sans-serif;
+  margin-right: 2.18rem;
+}
+/* line 9, ../scss/components/_links.scss */
+.header-links a:last-child {
+  margin-right: 0;
+}
+/* line 13, ../scss/components/_links.scss */
+.header-links a i {
+  margin-right: 0.5rem;
+}
+
+/* line 19, ../scss/components/_links.scss */
+.link-color {
+  color: #85939f;
+}
+
+/* line 1, ../scss/components/_carousel.scss */
+.carousel {
+  position: relative;
+}
+/* line 4, ../scss/components/_carousel.scss */
+.carousel-inner {
+  height: calc(100vh - 8em);
+  min-height: 31.8em;
+}
+/* line 10, ../scss/components/_carousel.scss */
+.carousel-indicators {
+  margin-bottom: 3.13em;
+}
+/* line 13, ../scss/components/_carousel.scss */
+.carousel-indicators li {
+  background-color: #fff;
+}
+/* line 17, ../scss/components/_carousel.scss */
+.carousel-indicators .active {
+  background-color: #02baab;
+}
+
+/* line 23, ../scss/components/_carousel.scss */
+.jumbotron {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  text-align: center;
+}
+/* line 31, ../scss/components/_carousel.scss */
+.jumbotron .jumbotron-btn {
+  margin-top: 6.25rem;
+}
+
+/* line 36, ../scss/components/_carousel.scss */
+.carousel-aside {
+  margin-bottom: 2rem;
+}
+/* line 40, ../scss/components/_carousel.scss */
+.carousel-aside .control-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+/* line 46, ../scss/components/_carousel.scss */
+.carousel-aside .carousel-control-prev, .carousel-aside .carousel-control-next {
+  position: relative;
+}
+/* line 49, ../scss/components/_carousel.scss */
+.carousel-aside .carousel-control-prev span:hover, .carousel-aside .carousel-control-next span:hover {
+  background-color: #02baab;
+}
+/* line 52, ../scss/components/_carousel.scss */
+.carousel-aside .carousel-control-prev span:hover:before, .carousel-aside .carousel-control-next span:hover:before {
+  color: #fff;
+}
+/* line 57, ../scss/components/_carousel.scss */
+.carousel-aside .carousel-control-prev .carousel-control-next-icon:before, .carousel-aside .carousel-control-prev .carousel-control-prev-icon:before, .carousel-aside .carousel-control-next .carousel-control-next-icon:before, .carousel-aside .carousel-control-next .carousel-control-prev-icon:before {
+  color: #02baab;
+}
+/* line 62, ../scss/components/_carousel.scss */
+.carousel-aside .carousel-inner-aside {
+  height: auto;
+  min-height: 0;
+}
+
+/* line 68, ../scss/components/_carousel.scss */
+.full-height {
+  height: 100% !important;
+}
+
+/* line 74, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-prev, .carousel-aside .carousel-control-prev, .portfolio-carousel .carousel-control-next, .carousel-aside .carousel-control-next {
+  opacity: 1;
+}
+/* line 78, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-prev-icon, .carousel-aside .carousel-control-prev-icon, .portfolio-carousel .carousel-control-next-icon, .carousel-aside .carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: orange;
+  position: relative;
+  background-image: none !important;
+}
+/* line 86, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-prev-icon:before, .carousel-aside .carousel-control-prev-icon:before, .portfolio-carousel .carousel-control-next-icon:before, .carousel-aside .carousel-control-next-icon:before {
+  background: none;
+  content: "\f104";
+  font-family: FontAwesome;
+  font-size: 1.8rem;
+  position: absolute;
+  color: orange;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+/* line 101, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-prev-icon:hover, .carousel-aside .carousel-control-prev-icon:hover, .portfolio-carousel .carousel-control-next-icon:hover, .carousel-aside .carousel-control-next-icon:hover {
+  background-color: orange;
+}
+/* line 102, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-prev-icon:hover:before, .carousel-aside .carousel-control-prev-icon:hover:before, .portfolio-carousel .carousel-control-next-icon:hover:before, .carousel-aside .carousel-control-next-icon:hover:before {
+  color: #fff;
+}
+/* line 111, ../scss/components/_carousel.scss */
+.portfolio-carousel .carousel-control-next-icon:before, .carousel-aside .carousel-control-next-icon:before {
+  content: "\f105";
+}
+
+/* line 1, ../scss/components/_titles.scss */
+.section-headers-white, .section-headers-black {
+  color: #fff;
+  font: 300 2.25rem/1.25rem "Oxygen", sans-serif;
+  margin-bottom: 5.4rem;
+  text-align: center;
+  position: relative;
+}
+/* line 8, ../scss/components/_titles.scss */
+.section-headers-white:after, .section-headers-black:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #eee;
+  bottom: -40px;
+  left: calc(50% - 25px);
+}
+
+/* line 20, ../scss/components/_titles.scss */
+.section-headers-black {
+  color: #3b4954;
+}
+
+/* line 25, ../scss/components/_titles.scss */
+.cards-titles {
+  color: #000;
+  font: 300 1.5rem/1.88rem "Oxygen", sans-serif;
+}
+
+/* line 30, ../scss/components/_titles.scss */
+.jumbotron-title {
+  font: 300 3.75rem/4.5rem "Oxygen", sans-serif;
+  color: #fff;
+}
+/* line 34, ../scss/components/_titles.scss */
+.jumbotron-title:last-child {
+  margin-bottom: 6.25rem;
+}
+
+/* line 39, ../scss/components/_titles.scss */
+.block-grid-title {
+  color: #fff;
+  font: 300 2.25rem/2.25rem "Oxygen", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+/* line 45, ../scss/components/_titles.scss */
+.blog-text-title {
+  color: #3b4954;
+  font: 700 1.13rem/1.5rem "Oxygen", sans-serif;
+}
+
+/* line 1, ../scss/components/_texts.scss */
+.section-titles-text, .section-titles-text-white {
+  color: #3b4954;
+  font: 300 1.125rem/1.875rem "Oxygen", sans-serif;
+  margin: 0 auto 2.875rem;
+  max-width: 46rem;
+  text-align: center;
+}
+
+/* line 9, ../scss/components/_texts.scss */
+.section-titles-text-white {
+  color: #fff;
+}
+
+/* line 14, ../scss/components/_texts.scss */
+.wp-purchase-text {
+  color: #fff;
+  font: 300 1.5rem/2.25rem "Oxygen", sans-serif;
+}
+
+/* line 19, ../scss/components/_texts.scss */
+.cards-texts {
+  color: #3b4954;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+}
+
+/* line 24, ../scss/components/_texts.scss */
+.grid-text {
+  font: 300 0.75rem/1.25rem "Oxygen", sans-serif;
+}
+
+/* line 28, ../scss/components/_texts.scss */
+.portfolio-text {
+  color: #3b4954;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+  text-align: justify;
+}
+
+/* line 34, ../scss/components/_texts.scss */
+.portfolio-description-text, .blog-text {
+  color: #3b4954;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+/* line 44, ../scss/components/_texts.scss */
+.cyan-text {
+  color: #02baab;
+}
+
+/* line 48, ../scss/components/_texts.scss */
+.white-text {
+  color: #fff;
+}
+
+/* line 52, ../scss/components/_texts.scss */
+.grey-text {
+  color: #ccc;
+}
+
+/* line 56, ../scss/components/_texts.scss */
+.dark-grey, .aside .blog-recent-comments-wrap .blog-recent-comments-list .comments-content .cyan-text {
+  color: #3b4954;
+}
+
+/* line 1, ../scss/components/_cards.scss */
+.cards {
+  border: none;
+  position: relative;
+}
+/* line 7, ../scss/components/_cards.scss */
+.cards:hover .work-cards-img {
+  filter: brightness(50%);
+}
+/* line 11, ../scss/components/_cards.scss */
+.cards:hover .wrap-icon-card {
+  z-index: 1;
+}
+/* line 15, ../scss/components/_cards.scss */
+.cards:hover .cards-content {
+  display: none;
+}
+/* line 20, ../scss/components/_cards.scss */
+.cards-content {
+  max-width: calc(100% - 30px);
+  position: absolute;
+  background-color: #666666;
+  bottom: 0;
+  right: 0;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+/* line 32, ../scss/components/_cards.scss */
+.cards-content .author-name {
+  color: #fff;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 37, ../scss/components/_cards.scss */
+.cards-content .author-position {
+  color: #02baab;
+  font: 300 0.68rem/1.25rem "Oxygen", sans-serif;
+}
+/* line 43, ../scss/components/_cards.scss */
+.cards-content-likes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/* line 48, ../scss/components/_cards.scss */
+.cards-content-likes i {
+  color: #fff;
+  font-size: 0.68rem;
+  margin-bottom: 0.69rem;
+}
+/* line 54, ../scss/components/_cards.scss */
+.cards-content-likes span {
+  color: #02baab;
+  font: 300 0.68rem/1.25rem "Oxygen", sans-serif;
+}
+
+/* line 62, ../scss/components/_cards.scss */
+.wrap-icon-card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+/* line 72, ../scss/components/_cards.scss */
+.wrap-icon-card .icon-card {
+  margin-bottom: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #02baab;
+}
+/* line 79, ../scss/components/_cards.scss */
+.wrap-icon-card .icon-card .icon-card-like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 84, ../scss/components/_cards.scss */
+.wrap-icon-card .icon-card .icon-card-like i {
+  width: 100%;
+  margin-top: .6rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* line 96, ../scss/components/_cards.scss */
+.posts-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 101, ../scss/components/_cards.scss */
+.posts-area .posts-area-info {
+  padding-bottom: 1.75rem;
+  max-width: 290px;
+}
+/* line 106, ../scss/components/_cards.scss */
+.posts-area .posts-area-info .post-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1.88rem;
+}
+/* line 112, ../scss/components/_cards.scss */
+.posts-area .posts-area-info .cards-titles {
+  color: #02baab;
+  margin-bottom: 1.75rem;
+}
+/* line 117, ../scss/components/_cards.scss */
+.posts-area .posts-area-info p {
+  color: #555;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+  margin-bottom: 1.25rem;
+}
+/* line 123, ../scss/components/_cards.scss */
+.posts-area .posts-area-info .posts-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+/* line 130, ../scss/components/_cards.scss */
+.posts-area .posts-area-info .posts-nav .counter i {
+  color: #02baab;
+  margin-right: 0.5rem;
+}
+/* line 135, ../scss/components/_cards.scss */
+.posts-area .posts-area-info .posts-nav .counter span {
+  font: 300 0.88rem/2.18rem "Oxygen", sans-serif;
+}
+
+/* line 143, ../scss/components/_cards.scss */
+.team-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 148, ../scss/components/_cards.scss */
+.wrap-photo {
+  width: 210px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 154, ../scss/components/_cards.scss */
+.wrap-photo img {
+  display: block;
+  opacity: .5;
+}
+/* line 159, ../scss/components/_cards.scss */
+.wrap-photo .photo-description {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  bottom: 0;
+  height: 120px;
+  background: #fff;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+/* line 170, ../scss/components/_cards.scss */
+.wrap-photo .photo-description p {
+  margin: 0 1.5rem;
+  color: #3b4954;
+  font: 400 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 177, ../scss/components/_cards.scss */
+.wrap-photo .photo-name {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+  width: 135px;
+  height: 60px;
+  background: #fff;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: 0 auto 1.87rem;
+}
+/* line 192, ../scss/components/_cards.scss */
+.wrap-photo .photo-name h5 {
+  color: #02baab;
+  font: 400 0.875rem/1.125rem "Oxygen", sans-serif;
+}
+/* line 197, ../scss/components/_cards.scss */
+.wrap-photo .photo-name p {
+  color: #ccc;
+  font: 400 0.75rem/1.125rem "Oxygen", sans-serif;
+}
+
+/* line 204, ../scss/components/_cards.scss */
+.profile-container {
+  width: 210px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  text-align: center;
+}
+/* line 210, ../scss/components/_cards.scss */
+.profile-container .transp-btn, .profile-container .transp-btn-white, .profile-container .transp-btn-footer, .profile-container .comments-button {
+  margin: 2rem auto;
+}
+
+/* line 216, ../scss/components/_cards.scss */
+.team-content:hover .photo-name {
+  display: none;
+}
+/* line 220, ../scss/components/_cards.scss */
+.team-content:hover img {
+  opacity: 1;
+}
+/* line 224, ../scss/components/_cards.scss */
+.team-content:hover .photo-description {
+  display: none;
+}
+/* line 229, ../scss/components/_cards.scss */
+.team-content:hover .profile-container button {
+  background: #02baab;
+  color: #fff;
+}
+
+/* line 236, ../scss/components/_cards.scss */
+.transp-btn:focus, .transp-btn-white:focus, .transp-btn-footer:focus, .comments-button:focus, .transp-btn:hover, .transp-btn-white:hover, .transp-btn-footer:hover, .comments-button:hover {
+  text-decoration: none;
+}
+
+/* line 240, ../scss/components/_cards.scss */
+.blog-text-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+/* line 246, ../scss/components/_cards.scss */
+.blog-text-cards .blog-text-img .img-fluid {
+  margin: 0;
+}
+
+/* line 1, ../scss/components/_circle-list.scss */
+.expirience-container {
+  display: flex;
+  width: 100%;
+}
+/* line 5, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list {
+  display: block;
+  text-align: center;
+  text-align: -webkit-center;
+  position: relative;
+  width: 22.5%;
+}
+/* line 12, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list .circe-big {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid #fff;
+  margin-bottom: 1.88rem;
+  position: relative;
+}
+/* line 21, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list .circe-big .circle-small {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 31, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list .circe-big .circle-small i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+}
+/* line 44, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list .expirience-content .numbers, .expirience-container .expirience-list .expirience-content .meanings {
+  color: white;
+  font: 300 3rem/1.5rem "Oxygen", sans-serif;
+  text-align: center;
+}
+/* line 50, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list .expirience-content .meanings {
+  font: 300 1.13rem/1.5rem "Oxygen", sans-serif;
+  margin-top: 1rem;
+}
+/* line 60, ../scss/components/_circle-list.scss */
+.expirience-container .expirience-list ~ .expirience-list .circe-big:before {
+  width: 4.4rem;
+  height: .7rem;
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: -92px;
+  background: url("../../images/dots.png") center center no-repeat;
+}
+
+/* line 1, ../scss/components/_icons.scss */
+.grid-icon {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #3b4954;
+  margin-right: .5rem;
+}
+
+/* line 9, ../scss/components/_icons.scss */
+.portfolio-social-list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+/* line 15, ../scss/components/_icons.scss */
+.portfolio-social-list .portfolio-social-icon {
+  margin: .2rem;
+}
+/* line 18, ../scss/components/_icons.scss */
+.portfolio-social-list .portfolio-social-icon a {
+  text-decoration: none;
+}
+/* line 21, ../scss/components/_icons.scss */
+.portfolio-social-list .portfolio-social-icon a i {
+  font-size: 1.2rem;
+}
+
+/* line 28, ../scss/components/_icons.scss */
+.fa-facebook-official {
+  color: blue;
+}
+
+/* line 32, ../scss/components/_icons.scss */
+.fa-twitter-square {
+  color: #0c8fcc;
+}
+
+/* line 36, ../scss/components/_icons.scss */
+.fa-envelope-square {
+  color: #ccc;
+}
+
+/* line 40, ../scss/components/_icons.scss */
+.fa-pinterest-square {
+  color: red;
+}
+
+/* line 44, ../scss/components/_icons.scss */
+.fa-plus-square {
+  color: #fc7100;
+}
+
+/* line 48, ../scss/components/_icons.scss */
+.fa-tags {
+  color: #02baab;
+  margin-right: .7rem;
+}
+
+/* line 53, ../scss/components/_icons.scss */
+.fa-quote-left {
+  color: #ccc;
+}
+
+/* line 57, ../scss/components/_icons.scss */
+.icon-counter {
+  border: 1px solid #ccc;
+  font: 300 0.7rem "Oxygen", sans-serif;
+  color: #3b4954;
+}
+
+/* line 1, ../scss/components/_breadcrumps.scss */
+.breadcrumb {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+/* line 7, ../scss/components/_breadcrumps.scss */
+.breadcrumb-item a {
+  color: #85939f;
+  font: 400 0.75rem/1.5rem "Oxygen", sans-serif;
+  text-decoration: none;
+}
+/* line 14, ../scss/components/_breadcrumps.scss */
+.breadcrumb .active {
+  color: #85939f;
+  font: 400 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+
+/* line 1, ../scss/components/_pagination.scss */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+/* line 7, ../scss/components/_pagination.scss */
+.pagination .page-item .page-link {
+  border: none;
+  color: #02baab;
+  font: 400 0.88rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 16, ../scss/components/_pagination.scss */
+.pagination .active .page-link {
+  border: none;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+/* line 1, ../scss/components/_portfolio-list.scss */
+.portfolio-list {
+  margin-bottom: 1.6rem;
+}
+/* line 4, ../scss/components/_portfolio-list.scss */
+.portfolio-list .portfolio-item {
+  margin-right: 1.2rem;
+  border-top: 5px solid #fff;
+}
+/* line 8, ../scss/components/_portfolio-list.scss */
+.portfolio-list .portfolio-item:first-child {
+  border-top: 5px solid #ccc;
+}
+/* line 11, ../scss/components/_portfolio-list.scss */
+.portfolio-list .portfolio-item:first-child a {
+  color: #3b4954;
+  text-decoration: none;
+}
+/* line 17, ../scss/components/_portfolio-list.scss */
+.portfolio-list .portfolio-item a {
+  color: #02baab;
+  text-decoration: none;
+}
+
+/* line 1, ../scss/components/_blockquote.scss */
+.blog-blockquote {
+  color: #c69c6d;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1.5rem 1.88rem;
+  border-left: 0.25rem solid #eceeef;
+  font: 300 1.5rem/2.25rem "Oxygen", sans-serif;
+}
+/* line 8, ../scss/components/_blockquote.scss */
+.blog-blockquote .blockquote-footer {
+  font: 700 0.88rem/1.88rem "Lato", sans-serif;
+  font-style: italic;
+  color: #c69c6d;
+}
+
+/* line 1, ../scss/components/_comments.scss */
+.comments-article, .user-answer {
+  border: 5px solid #fff;
+  background: #fff;
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+/* line 8, ../scss/components/_comments.scss */
+.comments-article:hover, .user-answer:hover {
+  border: 5px solid #ccc;
+}
+/* line 12, ../scss/components/_comments.scss */
+.comments-article .comments-line, .user-answer .comments-line {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 16, ../scss/components/_comments.scss */
+.comments-article .comments-line .cyan-text, .user-answer .comments-line .cyan-text {
+  text-decoration: none;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 21, ../scss/components/_comments.scss */
+.comments-article .comments-line .comments-reply, .user-answer .comments-line .comments-reply {
+  text-decoration: none;
+  color: #02baab;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+  z-index: 0;
+}
+/* line 27, ../scss/components/_comments.scss */
+.comments-article .comments-line .comments-reply:hover, .user-answer .comments-line .comments-reply:hover {
+  z-index: 2;
+}
+/* line 35, ../scss/components/_comments.scss */
+.comments-article .grey-text, .user-answer .grey-text {
+  color: #85939f;
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: .8rem;
+}
+/* line 42, ../scss/components/_comments.scss */
+.comments-article .comment-text, .user-answer .comment-text {
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+}
+
+/* line 47, ../scss/components/_comments.scss */
+.user-answer {
+  margin-left: 1.5rem;
+}
+
+/* line 1, ../scss/components/_forms.scss */
+.comments-form {
+  margin-bottom: 5rem;
+}
+
+/* line 5, ../scss/components/_forms.scss */
+.comment-input-field {
+  margin-bottom: 1.5rem;
+}
+/* line 8, ../scss/components/_forms.scss */
+.comment-input-field label {
+  display: flex;
+  flex-direction: column;
+}
+/* line 12, ../scss/components/_forms.scss */
+.comment-input-field label input {
+  border: none;
+  border-top: 1px solid #02baab;
+}
+
+/* line 20, ../scss/components/_forms.scss */
+.comment-textarea-field textarea {
+  border: none;
+  border-top: 1px solid #02baab;
+  min-height: 6.25rem;
+  margin-bottom: 2rem;
+}
+
+/* line 1, ../scss/layouts/_header.scss */
+.header-top {
+  background-color: #000;
+  padding: 0.56rem 0 0.75rem;
+}
+/* line 5, ../scss/layouts/_header.scss */
+.header-top .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 12, ../scss/layouts/_header.scss */
+.header-bottom {
+  background-color: #666;
+}
+/* line 15, ../scss/layouts/_header.scss */
+.header-bottom .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 22, ../scss/layouts/_header.scss */
+.header-nav {
+  display: flex;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(1) {
+  border-top: 10px solid #ffae00;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(2) {
+  border-top: 10px solid #fc7100;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(3) {
+  border-top: 10px solid #e51c5e;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(4) {
+  border-top: 10px solid #ae0f8d;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(5) {
+  border-top: 10px solid #6d0fae;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(6) {
+  border-top: 10px solid #33227a;
+}
+/* line 26, ../scss/layouts/_header.scss */
+.header-nav li:nth-child(7) {
+  border-top: 10px solid #0c8fcc;
+}
+/* line 31, ../scss/layouts/_header.scss */
+.header-nav li {
+  width: 6.25rem;
+  text-align: center;
+  min-height: 72px;
+}
+/* line 36, ../scss/layouts/_header.scss */
+.header-nav li a {
+  color: #fff;
+  font: 300 0.75rem/3.8rem "Oxygen", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 1, ../scss/layouts/sections/_steal-section.scss */
+.steal-section {
+  background-color: #fff;
+  padding: 6.25rem 0;
+}
+
+/* line 6, ../scss/layouts/sections/_steal-section.scss */
+.btn-wrap {
+  display: flex;
+}
+/* line 9, ../scss/layouts/sections/_steal-section.scss */
+.btn-wrap .transp-btn, .btn-wrap .transp-btn-white, .btn-wrap .transp-btn-footer, .btn-wrap .comments-button {
+  margin: 0 auto;
+}
+
+/* line 1, ../scss/layouts/sections/_latest-works-section.scss */
+.latest-works-section {
+  background-color: #ccc;
+  padding: 6.25rem 0;
+}
+
+/* line 1, ../scss/layouts/sections/_wp-purchase-section.scss */
+.wp-purchase-section {
+  background-color: #02baab;
+  padding: 3rem 0;
+}
+/* line 5, ../scss/layouts/sections/_wp-purchase-section.scss */
+.wp-purchase-section .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 1, ../scss/layouts/sections/_features-section.scss */
+.features-section {
+  background-color: #fff;
+  padding: 6.25rem 0 1.25rem;
+}
+
+/* line 6, ../scss/layouts/sections/_features-section.scss */
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+/* line 12, ../scss/layouts/sections/_features-section.scss */
+.features .features-info {
+  margin-bottom: 4.38rem;
+  width: 39%;
+  padding-left: 4.3rem;
+  position: relative;
+}
+/* line 18, ../scss/layouts/sections/_features-section.scss */
+.features .features-info:before {
+  content: '';
+  width: 2.5rem;
+  height: 2.38rem;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: contain;
+}
+/* line 29, ../scss/layouts/sections/_features-section.scss */
+.features .features-info:nth-child(1):before {
+  background: url("../../images/star.png") center center no-repeat;
+}
+/* line 33, ../scss/layouts/sections/_features-section.scss */
+.features .features-info:nth-child(2):before {
+  background: url("../../images/cup.png") center center no-repeat;
+}
+/* line 37, ../scss/layouts/sections/_features-section.scss */
+.features .features-info:nth-child(3):before {
+  background: url("../../images/pen.png") center center no-repeat;
+}
+/* line 41, ../scss/layouts/sections/_features-section.scss */
+.features .features-info:nth-child(4):before {
+  background: url("../../images/cloud.png") center center no-repeat;
+}
+/* line 45, ../scss/layouts/sections/_features-section.scss */
+.features .features-info .cards-titles {
+  margin-bottom: 0.75rem;
+}
+
+/* line 1, ../scss/layouts/sections/_quote-section.scss */
+.quote-section {
+  background-color: #ccc;
+  padding: 11.56rem 0 6.25rem;
+}
+/* line 5, ../scss/layouts/sections/_quote-section.scss */
+.quote-section blockquote {
+  max-width: 38.4rem;
+  margin: 0 auto;
+  text-align: justify;
+  color: #fff;
+  font: 300 1.5rem/1.88rem "Oxygen", sans-serif;
+  position: relative;
+}
+/* line 13, ../scss/layouts/sections/_quote-section.scss */
+.quote-section blockquote:before {
+  content: '';
+  width: 2.75rem;
+  height: 2.44rem;
+  display: block;
+  top: -5.5rem;
+  left: 50%;
+  position: absolute;
+  background: url("../../images/quotes.png") center center no-repeat;
+  background-size: contain;
+}
+/* line 25, ../scss/layouts/sections/_quote-section.scss */
+.quote-section blockquote p {
+  color: #02baab;
+  font: 700 0.88rem/1.13rem "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* line 1, ../scss/layouts/sections/_blog-posts-section.scss */
+.blog-posts-section {
+  background-color: #fff;
+  padding: 6.25rem 0;
+}
+
+/* line 1, ../scss/layouts/sections/_expirience-section.scss */
+.expirience-section {
+  background-color: #02baab;
+  padding: 6.25rem 0;
+}
+
+/* line 1, ../scss/layouts/sections/_team-section.scss */
+.team-section {
+  background-color: #fff;
+  padding: 6.25rem 0 8rem;
+}
+
+/* line 1, ../scss/layouts/sections/_block-grid-view.scss */
+.grid-content-top {
+  background: url("../../images/grid-backgr.jpg") center center no-repeat;
+  background-size: cover;
+  max-height: 18.75rem;
+  padding: 10.6rem 0 3.13rem;
+}
+/* line 7, ../scss/layouts/sections/_block-grid-view.scss */
+.grid-content-top .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 14, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list {
+  display: flex;
+  justify-content: flex-start;
+}
+/* line 18, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list-link {
+  margin-right: 2rem;
+}
+/* line 21, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list-link a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  outline: none;
+}
+/* line 27, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list-link a:hover {
+  opacity: 0.7;
+}
+/* line 31, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list-link a .grid-icon {
+  position: relative;
+}
+/* line 34, ../scss/layouts/sections/_block-grid-view.scss */
+.user-list-link a .grid-icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .8rem;
+  color: #85939f;
+  text-align: center;
+}
+
+/* line 49, ../scss/layouts/sections/_block-grid-view.scss */
+.grid-content-main {
+  padding: 3.13rem 0 3.13rem;
+}
+
+/* line 1, ../scss/layouts/sections/_portfolio-grid.scss */
+.portfolio-content {
+  padding: 3.13rem 0 3.13rem;
+}
+/* line 4, ../scss/layouts/sections/_portfolio-grid.scss */
+.portfolio-content .portfolio-text {
+  margin-bottom: 2.88rem;
+}
+/* line 9, ../scss/layouts/sections/_portfolio-grid.scss */
+.portfolio-content .row .cards {
+  margin-bottom: 20px;
+}
+
+/* line 15, ../scss/layouts/sections/_portfolio-grid.scss */
+.portfolio-grid-top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 20, ../scss/layouts/sections/_portfolio-grid.scss */
+.cart-info {
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 24, ../scss/layouts/sections/_portfolio-grid.scss */
+.cart-info a {
+  text-decoration: none;
+  color: #85939f;
+  font: 300 0.75rem/2.2rem "Oxygen", sans-serif;
+}
+/* line 29, ../scss/layouts/sections/_portfolio-grid.scss */
+.cart-info a .fa {
+  margin-left: .5rem;
+  color: #fc7100;
+  font-size: .75rem;
+}
+
+/* line 1, ../scss/layouts/sections/_portfolio-single.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 5, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-single {
+  padding: 3.125rem 0;
+}
+
+/* line 10, ../scss/layouts/sections/_portfolio-single.scss */
+.work-description p {
+  color: #3b4954;
+  font: 700 0.75rem/1.5rem "Oxygen", sans-serif;
+  margin-bottom: .6rem;
+}
+/* line 20, ../scss/layouts/sections/_portfolio-single.scss */
+.work-description .work-container .work-list i {
+  color: #ffae00;
+  margin-right: .7rem;
+}
+/* line 25, ../scss/layouts/sections/_portfolio-single.scss */
+.work-description .work-container .work-list span {
+  font: 300 0.75rem/1.88rem "Oxygen", sans-serif;
+  color: #3b4954;
+}
+
+/* line 33, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-likes {
+  margin-bottom: 1.3rem;
+}
+/* line 36, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-likes i {
+  margin-right: .8rem;
+  color: #ccc;
+}
+/* line 41, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-likes span {
+  color: #555;
+  font: 300 0.88rem/1.25rem "Oxygen", sans-serif;
+}
+
+/* line 47, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-category {
+  text-decoration: none;
+  color: #ffae00;
+  font: 300 0.88rem/1.25rem "Oxygen", sans-serif;
+}
+/* line 52, ../scss/layouts/sections/_portfolio-single.scss */
+.portfolio-category:hover {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* line 2, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content {
+  padding: 3.13rem 0;
+}
+/* line 5, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .img-fluid {
+  display: block;
+  margin: 0 auto 3.13rem;
+}
+/* line 10, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-text-wrapper {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+/* line 15, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+/* line 20, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags span {
+  color: #3b4954;
+  font: 300 0.88rem/1.5rem "Oxygen", sans-serif;
+  margin-right: 0.5rem;
+}
+/* line 27, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags .tags-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+/* line 31, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags .tags-wrapper .tags-list {
+  margin-right: .5rem;
+}
+/* line 34, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags .tags-wrapper .tags-list a {
+  text-decoration: none;
+  color: #02baab;
+  font: 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 39, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .blog-tags .tags-wrapper .tags-list a:hover {
+  color: #ccc;
+}
+/* line 47, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .portfolio-social-list {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+/* line 52, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .portfolio-social-list .portfolio-social-icon {
+  margin-right: .3rem;
+}
+/* line 55, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .portfolio-social-list .portfolio-social-icon a {
+  text-decoration: none;
+}
+/* line 58, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .portfolio-social-list .portfolio-social-icon a i {
+  font-size: 2rem;
+}
+/* line 62, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .portfolio-social-list .portfolio-social-icon a .icon-counter {
+  font-size: 1.3rem;
+}
+/* line 69, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .popular-post-area {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 73, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .popular-post-area li {
+  max-width: 196px;
+}
+/* line 76, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-content .popular-post-area li i {
+  margin: 1.5rem 0 .5rem;
+}
+
+/* line 84, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-text-title {
+  margin-bottom: 1.5rem;
+}
+/* line 88, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap {
+  margin-bottom: 1.5rem;
+}
+/* line 91, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list {
+  border-bottom: 1px solid #ccc;
+}
+/* line 95, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list:last-child {
+  border: none;
+}
+/* line 99, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list .category-link {
+  color: #02baab;
+  text-decoration: none;
+}
+/* line 103, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list .category-link:hover {
+  color: #ccc;
+}
+/* line 107, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list .category-link .fa-caret-right {
+  margin-right: 1rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+/* line 113, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-categories-wrap .categories-list .category-link span {
+  font: 300 0.75rem/2.5rem "Oxygen", sans-serif;
+}
+/* line 120, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-recent-comments-wrap {
+  margin-bottom: 1.5rem;
+}
+/* line 123, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-recent-comments-wrap .blog-recent-comments-list {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+/* line 127, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-recent-comments-wrap .blog-recent-comments-list .comments-content {
+  margin-bottom: .5rem;
+}
+/* line 130, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-recent-comments-wrap .blog-recent-comments-list .comments-content .dark-grey, .aside .blog-recent-comments-wrap .blog-recent-comments-list .comments-content .cyan-text {
+  font: 300 0.75rem/1.13rem "Oxygen", sans-serif;
+}
+/* line 134, ../scss/layouts/sections/_blog-single.scss */
+.aside .blog-recent-comments-wrap .blog-recent-comments-list .comments-content .cyan-text {
+  color: #02baab;
+}
+/* line 142, ../scss/layouts/sections/_blog-single.scss */
+.aside .block-tag-cloud {
+  margin-bottom: 1.5rem;
+}
+/* line 145, ../scss/layouts/sections/_blog-single.scss */
+.aside .block-tag-cloud .block-tag-cloud-item {
+  margin-bottom: .75rem;
+  display: inline-block;
+}
+/* line 149, ../scss/layouts/sections/_blog-single.scss */
+.aside .block-tag-cloud .block-tag-cloud-item .tag-link {
+  text-decoration: none;
+  color: #02baab;
+  border: 1px solid #ccc;
+  padding: .4rem;
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 156, ../scss/layouts/sections/_blog-single.scss */
+.aside .block-tag-cloud .block-tag-cloud-item .tag-link:hover {
+  color: white;
+  background-color: #02baab;
+  border: 1px solid #02baab;
+}
+
+/* line 168, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-grey-content {
+  background: #ebf0f3;
+  padding: 3.13rem 0;
+}
+/* line 172, ../scss/layouts/sections/_blog-single.scss */
+.blog-single-grey-content .blog-text-title {
+  margin-bottom: 1.5rem;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+.main-footer {
+  background-color: #1f2a32;
+  padding: 0 0 3.13rem;
+  color: #fff;
+}
+
+/* line 7, ../scss/layouts/_footer.scss */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+/* line 13, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content:nth-child(1) {
+  border-top: 10px solid #6d0fae;
+}
+/* line 13, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content:nth-child(2) {
+  border-top: 10px solid #0c8fcc;
+}
+/* line 13, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content:nth-child(3) {
+  border-top: 10px solid #e51c5e;
+}
+/* line 13, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content:nth-child(4) {
+  border-top: 10px solid #fc7100;
+}
+/* line 18, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content {
+  padding-top: 2rem;
+}
+/* line 21, ../scss/layouts/_footer.scss */
+.footer-top .footer-top-content .footer-titles {
+  color: #fff;
+  font: 300 1.375rem/2.19rem "Oxygen", sans-serif;
+  margin-bottom: 3.13rem;
+}
+
+/* line 29, ../scss/layouts/_footer.scss */
+.contact-area {
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 32, ../scss/layouts/_footer.scss */
+.contact-area li {
+  margin-bottom: 2rem;
+}
+/* line 36, ../scss/layouts/_footer.scss */
+.contact-area:last-child {
+  margin-bottom: 0;
+}
+
+/* line 41, ../scss/layouts/_footer.scss */
+.tweets-area {
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 44, ../scss/layouts/_footer.scss */
+.tweets-area li {
+  margin-bottom: 2rem;
+}
+/* line 48, ../scss/layouts/_footer.scss */
+.tweets-area:last-child {
+  margin-bottom: 0;
+}
+
+/* line 53, ../scss/layouts/_footer.scss */
+.social-area {
+  font: 400 0.75rem/4.4rem "Oxygen", sans-serif;
+  min-width: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* line 60, ../scss/layouts/_footer.scss */
+.social-area a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+}
+/* line 67, ../scss/layouts/_footer.scss */
+.social-area a .footer-social-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 74, ../scss/layouts/_footer.scss */
+.social-area a .footer-social-icon i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* line 82, ../scss/layouts/_footer.scss */
+.popular-post-area {
+  font: 400 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+/* line 85, ../scss/layouts/_footer.scss */
+.popular-post-area li {
+  margin-bottom: 2rem;
+}
+/* line 89, ../scss/layouts/_footer.scss */
+.popular-post-area:last-child {
+  margin-bottom: 0;
+}
+
+/* line 96, ../scss/layouts/_footer.scss */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 102, ../scss/layouts/_footer.scss */
+.footer-bottom .bottom-content p {
+  font: 300 0.75rem/1.5rem "Oxygen", sans-serif;
+}
+
+/* line 108, ../scss/layouts/_footer.scss */
+.facebook {
+  background-color: #3b5998;
+}
+
+/* line 112, ../scss/layouts/_footer.scss */
+.twitter {
+  background-color: #0c8fcc;
+}
+
+/* line 116, ../scss/layouts/_footer.scss */
+.youtube {
+  background-color: #c4302b;
+}
+
+/* line 120, ../scss/layouts/_footer.scss */
+.instagram {
+  background-color: #825c48;
+}
+
+/* line 124, ../scss/layouts/_footer.scss */
+.pinterest {
+  background-color: #a30834;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 7, ../scss/media/_laptop.scss */
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* line 14, ../scss/media/_laptop.scss */
+  .header-top .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* line 22, ../scss/media/_laptop.scss */
+  .header-bottom .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* line 32, ../scss/media/_laptop.scss */
+  .grid-content-top {
+    padding: 5rem 0 3.13rem;
+  }
+  /* line 35, ../scss/media/_laptop.scss */
+  .grid-content-top .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* line 43, ../scss/media/_laptop.scss */
+  .user-list {
+    flex-wrap: wrap;
+  }
+
+  /* line 49, ../scss/media/_laptop.scss */
+  .cards {
+    margin-bottom: 20px;
+  }
+  /* line 53, ../scss/media/_laptop.scss */
+  .cards-content {
+    max-width: 290px;
+    text-align: center;
+  }
+
+  /* line 59, ../scss/media/_laptop.scss */
+  .features-info {
+    margin-left: 30px;
+  }
+
+  /* line 64, ../scss/media/_laptop.scss */
+  .wp-purchase-section .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* line 72, ../scss/media/_laptop.scss */
+  .expirience-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  /* line 78, ../scss/media/_laptop.scss */
+  .expirience-list ~ .expirience-list {
+    margin-top: 100px;
+  }
+  /* line 80, ../scss/media/_laptop.scss */
+  .expirience-list ~ .expirience-list .circe-big:before {
+    width: 4.4rem;
+    height: .7rem;
+    content: '';
+    transform: rotate(90deg);
+    position: absolute;
+    top: -60px;
+    left: 66px;
+    background: url("../../images/dots.png") center center no-repeat;
+  }
+
+  /* line 92, ../scss/media/_laptop.scss */
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* line 99, ../scss/media/_laptop.scss */
+  .posts-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* line 105, ../scss/media/_laptop.scss */
+  .blog-text-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+  /* line 111, ../scss/media/_laptop.scss */
+  .blog-text-cards .blog-text-img .img-fluid {
+    margin: .5rem;
+  }
+
+  /* line 117, ../scss/media/_laptop.scss */
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 3, ../scss/media/_tablet.scss */
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* line 14, ../scss/media/_tablet.scss */
+  .user-list {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  /* line 19, ../scss/media/_tablet.scss */
+  .blog-text-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  /* line 33, ../scss/media/_tablet.scss */
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 7, ../scss/media/_mobile.scss */
+  .block-grid-title {
+    text-align: center;
+  }
+
+  /* line 11, ../scss/media/_mobile.scss */
+  .grid-content-top .row {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  /* line 16, ../scss/media/_mobile.scss */
+  .user-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  /* line 22, ../scss/media/_mobile.scss */
+  .blog-blockquote {
+    font: 300 1rem/1.5rem "Oxygen", sans-serif;
+  }
+
+  /* line 26, ../scss/media/_mobile.scss */
+  .popular-post-area {
+    flex-direction: column;
+  }
+
+  /* line 30, ../scss/media/_mobile.scss */
+  .blog-tags .tags-wrapper {
+    flex-wrap: wrap;
+  }
+
+  /* line 34, ../scss/media/_mobile.scss */
+  .comments-form .col-sm-12 {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* line 39, ../scss/media/_mobile.scss */
+  .portfolio-social-list {
+    margin-bottom: 2rem;
+  }
+}
